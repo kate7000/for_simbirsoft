@@ -1,0 +1,2 @@
+При запуске приложения локально была ошибка связанная с неверным методом validators.required 
+в файле flaskex/scripta/forms.py . Поменяла на  validators.InputRequired.
