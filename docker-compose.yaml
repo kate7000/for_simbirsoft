@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  webapp:
+    image: flaskex:latest
+    ports:
+      - "5080:5000"
+    networks:
+      - flaskex
+
+networks:
+  flaskex:
